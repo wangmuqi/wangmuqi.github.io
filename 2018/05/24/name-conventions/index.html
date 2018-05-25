@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>Hello World | Wangtt</title>
+    <title>前端开发规范 | Wangtt</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="每天进步一点点">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Hello World | Wangtt">
+    <meta name="twitter:title" content="前端开发规范 | Wangtt">
     <meta name="twitter:description" content="每天进步一点点">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Hello World | Wangtt">
+    <meta property="og:title" content="前端开发规范 | Wangtt">
     <meta property="og:description" content="每天进步一点点">
 
     
@@ -35,7 +35,7 @@
     <meta name="generator" content="hexo"/>
     
 
-    <link rel="canonical" href="http://yoursite.com/2018/05/24/hello-world/"/>
+    <link rel="canonical" href="http://yoursite.com/2018/05/24/name-conventions/"/>
 
                  
 </head>
@@ -135,25 +135,92 @@
 
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2018-05-24T02:53:18.000Z" class="post-list__meta--date date">2018-05-24</time> &#8226; <span class="post-meta__tags tags">于  </span>
+      <time datetime="2018-05-24T06:28:15.000Z" class="post-list__meta--date date">2018-05-24</time> &#8226; <span class="post-meta__tags tags">于  </span>
       <span class="page-pv">
        Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
       </span> 
    
     </div>
-    <h1 class="post-title">Hello World</h1>
+    <h1 class="post-title">前端开发规范</h1>
   </header>
 
   <section class="post">
-    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <p>记录一下自己看到的一些关于前端命名规范、html规范、css规范，以后方便自己查看.</p>
+<h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><ul>
+<li><p>变量：使用Camel命名法；如</p>
+<blockquote>
+<p>var firstName = ‘’</p>
+</blockquote>
+</li>
+<li><p>常量：全部字母大写，单词间下划线分割；如</p>
+<blockquote>
+<p>const VERSION = ‘1.0.0-beta’</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><p>函数：函数参数使用Camel命名法, 列表为一些函数命名习惯</p>
+<blockquote>
+<ul>
+<li>can：判断是否可执行某个动作（返回一个布尔值。true：可执行，false：不可执行）</li>
+<li>is：判断是否为某个值（返回一个布尔值。true：是某个值，false：不是某个值）</li>
+<li>has：判断是否含有某个值（返回一个布尔值。true：含有此值，false：不含有此值）</li>
+<li>get：获取某个值（返回所需要的某个值，非布尔值）</li>
+<li>set：设置某个值（无返回值、返回是否设置成功或者返回链式对象）</li>
+</ul>
+</blockquote>
+</li>
+<li><p>类：使用Pascal命名法：如</p>
+<blockquote>
+<p>function TextNode(options) {<br>}</p>
+</blockquote>
+</li>
+<li><p>文件命名</p>
+<blockquote>
+<ul>
+<li>文件名不得含有空格</li>
+<li>文件名建议只使用小写字母，不使用大写字母。( 为了醒目，某些说明文件的文件名，可以使用大写字母，比如README、LICENSE。 )</li>
+<li>文件名包含多个单词时，单词之间建议使用半角的连词线 ( - ) 分隔。</li>
+<li>引入资源使用相对路径，不要指定资源所带的具体协议 ( http:,https: ) ，除非这两者协议都不可用。</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="html规范"><a href="#html规范" class="headerlink" title="html规范"></a>html规范</h3><ul>
+<li><p>语义化<br>语义化编程，在代码中使用正确的元素。</p>
+<blockquote>
+<p>语义化是指：根据元素其被创造出来时的初始意义来使用它。<br>意思就是用正确的标签干正确的事，而不是只有div和span。</p>
+</blockquote>
+</li>
+<li><p>脚本加载<br>说到js和css的位置，大家应该都知道js放在下面，css放在上面。<br>但是，如果你的项目只需要兼容ie10+或者只是在移动端访问，那么可以使用HTML5的新属性async，将脚本文件放在<head>内</head></p>
+</li>
+</ul>
+<ul>
+<li><p><img>标签的alt属性不为空</p>
+</li>
+<li><p>结构、表现、行为三者分离</p>
+<blockquote>
+<p>尽量在文档和模板中只包含结构性的HTML；而将所有表现代码，移入css样式表中；将所有动作行为，移入js脚本之中。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="css规范"><a href="#css规范" class="headerlink" title="css规范"></a>css规范</h3><ul>
+<li><p>id和class的命名</p>
+<blockquote>
+<p>根据元素目的和作用来命名，或其他通用的名称，代替表象和晦涩难懂的名称<br>如颜色不建议使用表象如.red，可以使用颜色描述的动作等，如.color-success</p>
+</blockquote>
+</li>
+<li><p>属性格式</p>
+<blockquote>
+<p>作为最佳实践，我们应该遵循以下顺序（应该按照下表的顺序）：</p>
+<ul>
+<li>结构性属性：<br>display<br>position, left, top, right etc.<br>overflow, float, clear etc.<br>margin, padding</li>
+<li>表现性属性：<br>background, border etc.<br>font, text</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<p>部分摘抄自: <a href="https://juejin.im/post/592d4a5b0ce463006b43b6da" target="_blank" rel="noopener">前端开发规范：命名规范、html规范、css规范、js规范</a></p>
 
   </section>
 
@@ -162,34 +229,20 @@
 <section class="read-more">
            
     
+        
+        
                
             <div class="read-more-item">
-                <span class="read-more-item-dim">Newer Post</span>
-                <h2 class="post-list__post-title post-title"><a href="/2018/05/24/name-conventions/" title="前端开发规范">前端开发规范</a></h2>
+                <span class="read-more-item-dim">Older Post</span>
+                <h2 class="post-list__post-title post-title"><a href="/2018/05/24/hello-world/" title="Hello World">Hello World</a></h2>
                 <p class="excerpt">
                 
-                记录一下自己看到的一些关于前端命名规范、html规范、css规范，以后方便自己查看.
-命名规范
-变量：使用Camel命名法；如
-
-var firstName = ‘’
-
-
-常量：全部字母大写，单词间下划线分割；如
-
-const VERSION = ‘1.0.0-beta’
-
-
-
-
-函数：函数参数使用
+                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
                 &hellip;
                 </p>
-                <div class="post-list__meta"><time datetime="2018-05-24T06:28:15.000Z" class="post-list__meta--date date">2018-05-24</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2018/05/24/name-conventions/">继续阅读</a></div>
-                           
+                <div class="post-list__meta"><time datetime="2018-05-24T02:53:18.000Z" class="post-list__meta--date date">2018-05-24</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2018/05/24/hello-world/">继续阅读</a></div>
+                       
             </div>
-        
-        
         
      
    
