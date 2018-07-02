@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>call()和apply()的理解 | Wangtt | Guard against arrogance</title>
+
+  
+  <meta name="author" content="wangtt">
+  
+
+  
+  <meta name="description" content="每天进步一点点">
+  
+
+  
+  
+  <meta name="keywords" content="前端">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="call()和apply()的理解"/>
+
+  <meta property="og:site_name" content="Wangtt"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico?1" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Wangtt" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+</head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">
+        <img src="/images/avatar.jpg" alt="Wangtt" title="Wangtt">
+      </a>
+    </h1>
+    <p class="site-description">Guard against arrogance</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/about">关于</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>call()和apply()的理解</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2018/07/02/call-apply-md/" rel="bookmark">
+        <time class="entry-date published" datetime="2018-07-02T06:48:20.000Z">
+          2018-07-02
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>对于call和apply的理解，永远都是遇到问题的时候查找下相关文档，看完理解了，然而一段时间过去后，脑回路又短路了，我这绝对是猪脑子😄…所以这次还是记录一下。<br><a id="more"></a></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">obj.call(thisObj, arg1, arg2, ...);</span><br><span class="line">obj.apply(thisObj, [arg1, arg2, ...]);</span><br></pre></td></tr></table></figure>
+<p>call 和 apply 都是为了改变某个函数运行时的 context 即上下文而存在的，换句话说，就是为了改变函数体内部 this 的指向。</p>
+<p>其实看了那么多篇文章，觉得知乎上有位大佬写的比较通俗易懂，比较好记一点，嘿嘿。</p>
+<p>猫吃鱼，狗吃肉，奥特曼打小怪兽。</p>
+<p>有天狗想吃鱼了</p>
+<p>猫.吃鱼.call(狗，鱼)</p>
+<p>狗就吃到鱼了</p>
+<p>猫成精了，想打怪兽</p>
+<p>奥特曼.打小怪兽.call(猫，小怪兽)</p>
+<p>举个例子方便理解：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cat</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.type = <span class="string">'cat'</span>,</span><br><span class="line">    <span class="keyword">this</span>.eatFish = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">`我是<span class="subst">$&#123;<span class="keyword">this</span>.type&#125;</span>，我喜欢吃🐟！！！`</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Dog</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.type = <span class="string">'dog'</span>,</span><br><span class="line">    <span class="keyword">this</span>.eatMeat = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">`我是<span class="subst">$&#123;<span class="keyword">this</span>.type&#125;</span>，我喜欢吃肉！！！`</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> cat = <span class="keyword">new</span> Cat(),</span><br><span class="line">    dog = <span class="keyword">new</span> Dog();</span><br><span class="line">cat.eatFish.call(dog) <span class="comment">// 我是dog，我喜欢吃🐟！！！</span></span><br><span class="line">dog.eatMeat.apply(cat) <span class="comment">// 我是cat，我喜欢吃肉！！！</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/前端/">前端</a>
+    </span>
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/前端/">前端</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2018 wangtt
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>

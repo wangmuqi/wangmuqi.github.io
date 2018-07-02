@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>前端开发规范 | Wangtt | Guard against arrogance</title>
+
+  
+  <meta name="author" content="wangtt">
+  
+
+  
+  <meta name="description" content="每天进步一点点">
+  
+
+  
+  
+  <meta name="keywords" content="前端">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="前端开发规范"/>
+
+  <meta property="og:site_name" content="Wangtt"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico?1" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Wangtt" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+</head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">
+        <img src="/images/avatar.jpg" alt="Wangtt" title="Wangtt">
+      </a>
+    </h1>
+    <p class="site-description">Guard against arrogance</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/about">关于</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>前端开发规范</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2018/05/25/name-conventions/" rel="bookmark">
+        <time class="entry-date published" datetime="2018-05-25T03:52:35.000Z">
+          2018-05-25
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>记录一下自己看到的一些关于前端命名规范、html规范、css规范，以后方便自己查看.<br><a id="more"></a></p>
+<h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><ul>
+<li><p>变量：使用Camel命名法；如</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> firstName = <span class="string">''</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>常量：全部字母大写，单词间下划线分割；如</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> VERSION = <span class="string">'1.0.0-beta'</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>函数：函数参数使用Camel命名法, 列表为一些函数命名习惯</p>
+<blockquote>
+<ul>
+<li>can：判断是否可执行某个动作（返回一个布尔值。true：可执行，false：不可执行）</li>
+<li>is：判断是否为某个值（返回一个布尔值。true：是某个值，false：不是某个值）</li>
+<li>has：判断是否含有某个值（返回一个布尔值。true：含有此值，false：不含有此值）</li>
+<li>get：获取某个值（返回所需要的某个值，非布尔值）</li>
+<li>set：设置某个值（无返回值、返回是否设置成功或者返回链式对象）</li>
+</ul>
+</blockquote>
+</li>
+<li><p>类：使用Pascal命名法：如</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">TextNode</span>(<span class="params">options</span>) </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>文件命名</p>
+<blockquote>
+<ul>
+<li>文件名不得含有空格</li>
+<li>文件名建议只使用小写字母，不使用大写字母。( 为了醒目，某些说明文件的文件名，可以使用大写字母，比如README、LICENSE。 )</li>
+<li>文件名包含多个单词时，单词之间建议使用半角的连词线 ( - ) 分隔。</li>
+<li>引入资源使用相对路径，不要指定资源所带的具体协议 ( http:,https: ) ，除非这两者协议都不可用。</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="html规范"><a href="#html规范" class="headerlink" title="html规范"></a>html规范</h3><ul>
+<li><p>语义化<br>语义化编程，在代码中使用正确的元素。</p>
+<blockquote>
+<p>语义化是指：根据元素其被创造出来时的初始意义来使用它。<br>意思就是用正确的标签干正确的事，而不是只有div和span。</p>
+</blockquote>
+</li>
+<li><p>脚本加载<br>说到js和css的位置，大家应该都知道js放在下面，css放在上面。<br>但是，如果你的项目只需要兼容ie10+或者只是在移动端访问，那么可以使用HTML5的新属性async，将脚本文件放在<head>内</head></p>
+</li>
+</ul>
+<ul>
+<li><p><img>标签的alt属性不为空</p>
+</li>
+<li><p>结构、表现、行为三者分离</p>
+<blockquote>
+<p>尽量在文档和模板中只包含结构性的HTML；而将所有表现代码，移入css样式表中；将所有动作行为，移入js脚本之中。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="css规范"><a href="#css规范" class="headerlink" title="css规范"></a>css规范</h3><ul>
+<li><p>id和class的命名</p>
+<blockquote>
+<p>根据元素目的和作用来命名，或其他通用的名称，代替表象和晦涩难懂的名称<br>如颜色不建议使用表象如.red，可以使用颜色描述的动作等，如.color-success</p>
+</blockquote>
+</li>
+<li><p>属性格式</p>
+<blockquote>
+<p>作为最佳实践，我们应该遵循以下顺序（应该按照下表的顺序）：</p>
+<ul>
+<li>结构性属性：<br>display<br>position, left, top, right etc.<br>overflow, float, clear etc.<br>margin, padding</li>
+<li>表现性属性：<br>background, border etc.<br>font, text</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/前端/">前端</a>
+    </span>
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/前端/">前端</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2018 wangtt
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>
