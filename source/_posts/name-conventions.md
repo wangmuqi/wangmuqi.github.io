@@ -1,15 +1,23 @@
----
 title: 前端开发规范
+date: 2018-05-25 11:52:35
+tags: 前端
+categories: 前端
 ---
+
 记录一下自己看到的一些关于前端命名规范、html规范、css规范，以后方便自己查看.
+<!-- more -->
 
 ### 命名规范
 
 * 变量：使用Camel命名法；如
-> var firstName = ''
+```javascript
+var firstName = ''
+```
 
 * 常量：全部字母大写，单词间下划线分割；如
-> const VERSION = '1.0.0-beta'
+```javascript
+const VERSION = '1.0.0-beta'
+```
 
 
 * 函数：函数参数使用Camel命名法, 列表为一些函数命名习惯
@@ -20,8 +28,10 @@ title: 前端开发规范
 >* set：设置某个值（无返回值、返回是否设置成功或者返回链式对象）
 
 *   类：使用Pascal命名法：如
-> function TextNode(options) {
-> }
+```javascript
+function TextNode(options) {
+}
+```
 
 * 文件命名
 >* 文件名不得含有空格
@@ -62,7 +72,6 @@ title: 前端开发规范
 > background, border etc.
 > font, text
 
-部分摘抄自: [前端开发规范：命名规范、html规范、css规范、js规范](https://juejin.im/post/592d4a5b0ce463006b43b6da)
 
 
 

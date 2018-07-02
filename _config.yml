@@ -4,16 +4,16 @@
 
 # Site
 title: Wangtt
-subtitle:
+subtitle: Guard against arrogance
 description: 每天进步一点点
 keywords:
 author: wangtt
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://wangmuqi.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: new-vno
+theme: Hacker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
