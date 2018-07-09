@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Wangtt
+title: sunshine
 subtitle: Guard against arrogance
 description: 每天进步一点点
 keywords:
 author: wangtt
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Hacker
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
