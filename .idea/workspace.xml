@@ -2,98 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b80f9da-ccbe-4a41-87d2-1b67280adae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/image/browser-cache/browser-cache-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/image/browser-cache/browser-cache-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/name-conventions.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/name-conventions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/browser-cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/browser-cache.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/Hacker" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Hacker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/de.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/default.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/es.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/fr.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ja.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ko.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/nl.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/no.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/pt.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/ru.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/zh-CN.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/languages/zh-TW.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/after-footer.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive-post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/article.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/footer.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/gauges-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/google-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/head.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/header.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/mobile-nav.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/date.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/gallery.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/nav.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/post/title.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_partial/sidebar.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/recent_posts.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/_widget/tagcloud.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/layout.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/page.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/layout/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/scripts/fancybox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_extend.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/archive.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/article.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/comment.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/footer.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/header.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/highlight.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/mobile.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-aside.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/grid.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_util/mixin.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/_variables.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/css/style.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/fancybox_buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/landscape/source/js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/new-vno" beforeDir="false" afterPath="$PROJECT_DIR$/themes/new-vno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -128,8 +40,26 @@
       <file leaf-file-name="browser-cache.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/browser-cache.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+            <state relative-caret-position="287">
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/main.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tables.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/tables.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -163,6 +93,7 @@
       <find>favicon</find>
       <find>wangtt</find>
       <find>site</find>
+      <find>caption</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/themes/next</dir>
@@ -190,6 +121,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/call-apply-md.md" />
         <option value="$PROJECT_DIR$/source/_posts/name-conventions.md" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/tables.styl" />
         <option value="$PROJECT_DIR$/source/_posts/browser-cache.md" />
       </list>
     </option>
@@ -229,24 +161,28 @@
             <path>
               <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Hacker" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangmuqi.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangmuqi.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,12 +237,12 @@
       <workItem from="1530778578650" duration="1394000" />
       <workItem from="1530847811346" duration="953000" />
       <workItem from="1530856199754" duration="720000" />
-      <workItem from="1531106220535" duration="1909000" />
+      <workItem from="1531106220535" duration="2949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22397000" />
+    <option name="totallyTimeSpent" value="23437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="0" />
@@ -316,6 +252,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -328,7 +265,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,20 +274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/call-apply-md.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/name-conventions.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1456">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/browser-cache.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1274">
@@ -644,10 +566,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/tables.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/browser-cache.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+        <state relative-caret-position="287">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
         </state>
       </provider>
     </entry>
